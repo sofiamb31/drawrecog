@@ -139,3 +139,11 @@ else:
 
     if not api_key:
         st.warning("Por favor ingresa tu API key.")
+
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #99cccc;
+        }
+    </style>
+""", unsafe_allow_html=True)
